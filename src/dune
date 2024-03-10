@@ -1,0 +1,10 @@
+(library
+ (name monopoly)
+ (public_name Monopoly)
+ (preprocess
+  (pps bisect_ppx)))
+
+(env
+ (_
+  (flags
+   (:standard -warn-error -A))))

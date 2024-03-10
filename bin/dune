@@ -1,0 +1,8 @@
+(executable
+ (name main)
+ (libraries Monopoly))
+
+(env
+ (_
+  (flags
+   (:standard -warn-error -A))))
